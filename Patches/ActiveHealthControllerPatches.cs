@@ -28,7 +28,7 @@ namespace acidphantasm_devbalaclavafix.Patches
             Player player = (Player)thisPlayer.GetValue(__instance);
             if (player.IsYourPlayer)
             {
-                Logger.LogInfo("Main Player damaged");
+                //Logger.LogInfo("Main Player damaged");
 
                 List<ArmorComponent> armorComponents = new List<ArmorComponent>(20);
                 player.Inventory.GetPutOnArmorsNonAlloc(armorComponents);
@@ -39,7 +39,7 @@ namespace acidphantasm_devbalaclavafix.Patches
                     {
                         if (enumerator.Current.Item.TemplateId == GClass3107.InvincibleBalaclava)
                         {
-                            Logger.LogInfo("Main Player is wearing Dev Balaclava");
+                            //Logger.LogInfo("Main Player is wearing Dev Balaclava - damage nullified");
                             return false;
                         }
                     }
