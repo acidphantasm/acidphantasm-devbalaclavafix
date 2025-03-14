@@ -3,8 +3,7 @@ using BepInEx;
 
 namespace acidphantasm_devbalaclavafix
 {
-    [BepInPlugin("phantasm.acid.devbalaclavafix", "acidphantasm-DevBalaclavaFix", "1.0.1")]
-    [BepInDependency("com.SPT.core", "3.10.0")]
+    [BepInPlugin("com.acidphantasm.devbalaclavafix", "acidphantasm-DevBalaclavaFix", "1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
