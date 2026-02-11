@@ -37,7 +37,7 @@ namespace acidphantasm_devbalaclavafix.Patches
                 {
                     while (enumerator.MoveNext())
                     {
-                        if (enumerator.Current.Item.TemplateId == GClass3178.InvincibleBalaclava)
+                        if (enumerator.Current.Item.TemplateId == GClass3382.InvincibleBalaclava)
                         {
                             //Logger.LogInfo("Main Player is wearing Dev Balaclava - damage nullified");
                             return false;
